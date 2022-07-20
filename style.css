@@ -147,6 +147,15 @@ a{
     column-gap: 15px;
     margin-right: 50px;
 }
+.section-tab>button{
+    background-color: #FFC700;
+    color:black;
+    padding: 15px 35px;
+    font-size: 25px;
+    border-radius: 10px;
+    position: relative;
+    top: 55px;
+}
 /* -----------------footer------------- */
 
 footer{
@@ -190,6 +199,204 @@ li{
     padding: 25px;
 }
 
-/* --------------media query------------- */
+/* --------------media query for phone------------- */
+
+@media only screen and (max-width: 689px) {
+
+
+    /* ---------header part---------- */
+
+    
+    .header-container{
+        width: 280px;
+        height: 580px;
+        background-color: #002D13; 
+        border-radius: 20px;
+    }
+    .header-div-1{
+        color: #FFC700;
+        text-transform: capitalize;
+        text-align: center;
+        margin-left: 440px;
+        margin-top:50px;
+        padding: 15px;
+    }
+    h1{
+        font-size: 15px;
+    }
+    .now{
+        margin-right: 75px;
+    }
+    .header-p{
+        font-size: small;
+        color: #9f9393;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .header-button{
+        font-size: 25px;
+        padding: 5px;
+        background-color: #FFC700;
+        border-radius: 50px;
+        margin-top: 25px;
+        transition: all 2s;
+    }
+    .header-button:hover{
+        background-image: linear-gradient(to right,#39973D,#00F700 );
+         color:#FFFFFF; 
+         padding: 10px;
+     }
+    .header-div-2, img{
+        position: relative;
+        top: 141px;
+        right: 210px; 
+        padding: 15px; 
+    }
+
+    /* ---------main part----------- */
+    
+    .main-container{
+        display:inline-block;
+        width: 280px;
+    }
+    .main-div-1{
+        background-color: white;
+        width: 315px;
+        height: 100px;
+        margin-top: 8px;
+        border-radius: 10px;
+        margin-left: 55px;
+        text-align: center;
+    }
+    .img-div>img{
+        width: 280px;
+        height: 170px;
+        position: relative;
+        left: 5px;
+    }
+    .blog-div{
+        width: 300px;
+        position: relative;
+        top: 120px;
+        left: 50px;
+    }
+    .main-div-2{
+        display: block;
+       
+    }
+    .section-tab>button{
+        display: none;
+    }
+    footer{
+        position: relative;
+        top: 180px;
+        left: 40px;
+        width: 330px;
+        height: 550px;
+        background-color: #002D13; 
+        color: #FFFFFF;
+        
+    }
+    hr{
+        position: relative;
+        top: 100px;
+        left: 50px;
+        width: 250px;
+        border: 0.1px solid rgb(219, 196, 196);
+        
+    }
+    ul{
+        position: relative;
+        top: 130px;
+        right:25px;
+        display: block;
+    }
+    li{
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    .icon{
+        position: relative;
+        top: 116px;
+        left: 68px;
+    }
+    }
+
+
+    /* --------------media query for big screen------------- */
+
+    @media only screen and (min-width:993px){
+        .section-tab>button{
+            display: none;
+        }
+    }
+
+    /* ------------media query for tablet-------------------- */
+
+    @media only screen and (min-width:690px) and (max-width:992px) {
+
+        /* ---------header part---------- */
+
+        .header-container{
+            width: 420px;
+        }
+        .header-div-1{
+            color: #FFC700;
+            text-transform: capitalize;
+            margin-left: 100px;
+            margin-right: 2px;
+            margin-top: 50px;
+            padding: 15px;
+        }
+        h1{
+            font-size: 15px;
+            margin-left: 20px;
+        }
+        .now{
+            margin-left: 25px;
+        }
+        .header-p{
+            font-size:7px;
+            color: #9f9393;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+        }
+        .header-button{
+            font-size: 15px;
+            padding: 5px 8px;
+            background-color: #FFC700;
+            border-radius: 10px;
+            margin-top: 25px;
+            margin-left: 20px;
+            transition: all 2s;
+        }
+        .header-div-2{
+            margin-right: 45px;
+            margin-left: 2px;
+        }
+
+        /* -------------main part------------- */
+
+        .main-container{
+            display:inline;
+            width: 280px;
+        }
+        .main-div-1{
+            background-color: white;
+            width: 315px;
+            height: 100px;
+            margin-top: 8px;
+            border-radius: 10px;
+            margin-left: 105px;
+            margin-bottom: 120px;
+            text-align: center;
+        }
+
+
+    }
+    
+
+    
 
 
