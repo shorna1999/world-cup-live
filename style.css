@@ -471,7 +471,12 @@ li{
             list-style-type: none;
             margin-left: 35px;
         }
-
+        #icon{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            left: 26px;
+        }
     }
     
 
